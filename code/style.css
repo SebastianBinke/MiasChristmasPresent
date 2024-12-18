@@ -1,0 +1,86 @@
+/* style.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Verhindert Scrollbars durch fallende Herzen */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ff69b4;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  #container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 1; /* Setze z-index auf 1 */
+  }
+  
+  #buttons {
+    margin-top: 10px;
+  }
+  
+  #yesButton, #noButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  #yesButton {
+    background-color: #32CD32; /* LimeGreen */
+    color: white;
+  }
+  
+  #noButton {
+    background-color: #DC143C; /* Crimson */
+    color: white;
+  }
+  
+  #excitedGif {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  #usAsCats {
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 1px;
+  }
+  
+  h1 {
+    margin-bottom: 10px;
+  }
+  
+  /* Herz-Stile */
+  .heart {
+    position: fixed;
+    top: -10%;
+    animation: fall 5s linear infinite;
+    opacity: 0.8;
+    color: red;
+    font-size: 24px;
+    pointer-events: none;
+    z-index: 0; /* Setze z-index auf 0 */
+  }
+  
+  @keyframes fall {
+    0% {
+      transform: translateX(0) rotate(0deg);
+      top: -10%;
+    }
+    100% {
+      transform: translateX(0) rotate(360deg);
+      top: 110%;
+    }
+  }
+  
