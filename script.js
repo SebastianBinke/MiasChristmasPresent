@@ -66,7 +66,7 @@ yesButton.addEventListener('click', function() {
   // Replace page content
   document.body.innerHTML = `
     <div id="container">
-      <img src="/Users/sebastianbinke/Documents/Website Maus/Image/Tanzende Katze.gif" alt="Excited GIF" id="excitedGif">
+      <img src="Image/Tanzende Katze.gif" alt="Excited GIF" id="excitedGif">
       <h1>I'm so excited, eeehhhh!</h1>
       <h1>Now open the letter <3</h1>
     </div>
