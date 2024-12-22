@@ -10,18 +10,18 @@ let yesButtonSize = 16; // Initial font size in pixels
 
 // Array of texts for the No button after the first click
 const noTexts = [
-  "You sure?",
+  "You sure? :(",
   "Pleaseeee",
-  "Mauuuus",
+  "Mauuuusii",
   "Click here if you stanky",
   "Biiiiiitte",
-  "I'll die if you click again",
-  "I'm dead",
+  "I'll go on my knees",
+  "Literally dying if you click here",
   "Do you really want to continue?",
-  "You're talking to Sebastian's ghost",
+  "Sup, you're talking to my ghost now",
   "Meanie! :(",
   "What if I give you a forehead kiss?",
-  "No :("
+  "How about another one?"
 ];
 
 // Handle No button clicks
@@ -68,7 +68,7 @@ yesButton.addEventListener('click', function() {
     <div id="container">
       <img src="Image/Tanzende Katze.gif" alt="Excited GIF" id="excitedGif">
       <h1>I'm so excited, eeehhhh!</h1>
-      <h1>Now open the letter <3</h1>
+      <h1>Hope you're free on 2 Jan at 14:30 <3</h1>
     </div>
   `;
   
