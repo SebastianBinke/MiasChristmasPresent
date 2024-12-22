@@ -1,5 +1,3 @@
-// script.js
-
 // Get references to the buttons
 const yesButton = document.getElementById('yesButton');
 const noButton = document.getElementById('noButton');
@@ -18,7 +16,7 @@ const noTexts = [
   "I'll go on my knees",
   "Literally dying if you click here",
   "Do you really want to continue?",
-  "Sup, you're talking to my ghost now",
+  "Sup, you're talking to Sebastians ghost now",
   "Meanie! :(",
   "What if I give you a forehead kiss?",
   "How about another one?"
@@ -68,7 +66,7 @@ yesButton.addEventListener('click', function() {
     <div id="container">
       <img src="Image/Tanzende Katze.gif" alt="Excited GIF" id="excitedGif">
       <h1>I'm so excited, eeehhhh!</h1>
-      <h1>Hope you're free on 2 Jan at 14:30 <3</h1>
+      <h1>Hope you're free on 2 Jan at 2:30 pm <3</h1>
     </div>
   `;
   
